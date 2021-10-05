@@ -1,0 +1,23 @@
+.main-page {
+  box-shadow: 8px 8px 8px black;
+}
+
+.contact__item  {
+  border: none;
+  border-radius: 3px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(59,136,148,1) 28%, rgba(22,22,142,0.9416141456582633) 57%); 
+}
+
+.contacts__remove-button {
+  position: absolute;
+  top: 25px;
+  right: 15px;
+  font-size: 22px;
+  background-color: red;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
